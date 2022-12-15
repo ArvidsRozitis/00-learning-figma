@@ -1,0 +1,541 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>figma home work 1</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>        
+    <div class="mega-box">
+        <p>Sākumā ir baigais bardaks, ejot uzdevumam uz beigām labāk izpratu, kas kā saliekās kopā, ja pietiks laiks, iziešu cauri un izkoriģēšu.</p>
+        <ul>
+            <li>span vietā vajadzēja izmantot label</li>
+            <li>avatar samudījos* ar pārgudrošanu stilos</li>
+            <li>beigās sapratu, ka jāizmanto button nevis bilde</li>
+            <li>pirmajos piemēros par daudz kopēju no figmas, tādejādi saradot daudz nevajadzīgus parametrus, vēlāk dzēsu visu lieko nost</li>
+            <li>Īsti neizpratu, kuros gadījumos lieto flex box. Sākumā visur izmantoju, beigās izantoju tikai tad, kad mainījās izkārtojums</li>
+            <li>citās reizēs nosākuma jānostilo tās lietas, kas atkārtojas, iekaitot tos elementus, kā badge un iconas</li>
+            <li>pārskatot vēlreiz lapu sapratu, ka checkbox vajadzēja izmantot, līdzīgu pieeju, kā radio, pašlaik sataisītas, kā bildes bez iespējas check</li>
+            <li>avatar un tabula sagādāja lielākās grūtības</li>            
+            <ul>
+                <li>avatar: jo ar to sāku un kaut ko mēģināju pārgudroties</li>
+                <li>tabula: neredzēju nevienu sakarīgu piemēru, kā sataisīt beigās pats kaut ko samuģīju</li>
+              </ul>
+
+          </ul>  
+        <div class="box">
+            <H1>avatars (jākorīģē)</H1>   
+            <!-- avatar with initials -->
+            <div class="avatar-container avatar-background-size-1 background-color-primary">            
+                <span class="avatar-initials text-color-contrast">AA</span>
+                <div class="base-badge-avatar background-color-secondary">
+                    <span class="badge-number text-color-contrast">12</span>
+                </div>            
+            </div>
+            <!-- avatar with image -->
+            <div class="avatar-container avatar-background-size-1 background-color-image">            
+                <div class="base-badge-avatar background-color-secondary">
+                    <span class="badge-number text-color-contrast">1</span>
+                </div>            
+            </div>
+            <!-- avatar with icon -->
+            <div class="avatar-container avatar-background-size-1 background-color-primary">            
+                <img src="icon-vectors/starVector.svg" alt="" class="avatar-icon">
+                <div class="base-badge-avatar background-color-secondary">
+                    <span class="badge-number text-color-contrast">9</span>
+                </div>        
+            </div>
+        </div>
+
+        <div class="box">
+            <H1>badges</H1>
+            <!-- l size -->
+            <div class="container-badge-size-l background-color-primary">
+                <span class="badge-text-size-l text-color-contrast">00</span>
+            </div>
+
+            <div class="container-badge-size-l background-color-secondary">
+                <span class="badge-text-size-l text-color-contrast">00</span>
+            </div>
+
+            <div class="container-badge-size-l background-color-contrast badge-border">
+                <span class="badge-text-size-l text-color-primary">00</span>
+            </div>
+            
+            <div class="container-badge-size-l background-color-disabled">
+                <span class="badge-text-size-l text-color-contrast">00</span>
+            </div>
+            <!-- m size -->
+
+            <div class="container-badge-size-m background-color-primary">
+                <span class="badge-text-size-m text-color-contrast">00</span>
+            </div>
+
+            <div class="container-badge-size-m background-color-secondary">
+                <span class="badge-text-size-m text-color-contrast">00</span>
+            </div>
+
+            <div class="container-badge-size-m background-color-contrast badge-border">
+                <span class="badge-text-size-m text-color-primary">00</span>
+            </div>
+            <div class="container-badge-size-m background-color-disabled">
+                <span class="badge-text-size-m text-color-contrast">00</span>
+            </div>
+            
+            <!-- s size -->
+            <div class="container-badge-size-s background-color-primary">
+                <span class="badge-text-size-s text-color-contrast">00</span>
+            </div>
+
+            <div class="container-badge-size-s background-color-secondary">
+                <span class="badge-text-size-s text-color-contrast">00</span>
+            </div>
+
+            <div class="container-badge-size-s background-color-contrast badge-border">
+                <span class="badge-text-size-s text-color-primary">00</span>
+            </div>
+            <div class="container-badge-size-s background-color-disabled">
+                <span class="badge-text-size-s text-color-contrast">00</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <H1>badges</H1>
+            <!-- l size -->
+            <div class="container-badge-icon-l background-color-primary">
+                <img src="icon-vectors/badges-icon-check-white.svg" alt="" class="badge-icon-l">
+            </div>
+
+            <div class="container-badge-icon-l background-color-secondary">
+                <img src="icon-vectors/badges-icon-check-white.svg" alt="" class="badge-icon-l">
+            </div>
+
+            <div class="container-badge-icon-l background-color-contrast badge-border">
+                <img src="icon-vectors/badges-icon-check-black.svg" alt="" class="badge-icon-l">
+            </div>
+
+            <div class="container-badge-icon-l background-color-disabled">
+                <img src="icon-vectors/badges-icon-check-white.svg" alt="" class="badge-icon-l">
+            </div>
+            <!-- m size -->
+            <div class="container-badge-icon-m background-color-primary">
+                <img src="icon-vectors/badges-icon-check-white.svg" alt="" class="badge-icon-m">
+            </div>
+
+            <div class="container-badge-icon-m background-color-secondary">
+                <img src="icon-vectors/badges-icon-check-white.svg" alt="" class="badge-icon-m">
+            </div>
+
+            <div class="container-badge-icon-m background-color-contrast badge-border">
+                <img src="icon-vectors/badges-icon-check-black.svg" alt="" class="badge-icon-m">
+            </div>
+
+            <div class="container-badge-icon-m background-color-disabled">
+                <img src="icon-vectors/badges-icon-check-white.svg" alt="" class="badge-icon-m">
+            </div>
+            <!-- s size -->
+            <div class="container-badge-icon-s background-color-primary">
+                <img src="icon-vectors/badges-icon-check-white.svg" alt="" class="badge-icon-s">
+            </div>
+
+            <div class="container-badge-icon-s background-color-secondary">
+                <img src="icon-vectors/badges-icon-check-white.svg" alt="" class="badge-icon-s">
+            </div>
+
+            <div class="container-badge-icon-s background-color-contrast badge-border">
+                <img src="icon-vectors/badges-icon-check-black.svg" alt="" class="badge-icon-s">
+            </div>
+
+            <div class="container-badge-icon-s background-color-disabled">
+                <img src="icon-vectors/badges-icon-check-white.svg" alt="" class="badge-icon-s">
+            </div>
+        </div>
+        
+        <div class="box">
+            <H1>breadcrumbs</H1>
+            <div class="crumb-box">
+                <div class="breadcrumb-label-container">
+                    <img src="icon-vectors/star-icon-black.svg" alt="" class="breadcrumb-icon-star">
+                    <span class="breadcrumb-label">label</span>
+                </div>
+                <img src="icon-vectors/chevron-icon-right.svg" alt="" class="breadcrumb-icon-chevron">
+                <div class="breadcrumb-label-container">
+                    <img src="icon-vectors/star-icon-black.svg" alt="" class="breadcrumb-icon-star">
+                    <span class="breadcrumb-label">label</span>
+                </div>
+                <img src="icon-vectors/chevron-icon-right.svg" alt="" class="breadcrumb-icon-chevron">
+                <div class="breadcrumb-label-container">
+                    <img src="icon-vectors/star-icon-black.svg" alt="" class="breadcrumb-icon-star">
+                    <span class="breadcrumb-label text-color-secondary">label</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <H1>buttons</H1>
+            <!-- label button -->
+            <div class="button-base-container background-color-primary badge-border">
+                <img src="icon-vectors/plus-icon.svg" alt="" class="button-base-icon">
+                <span class="button-base-label text-color-contrast">label</span>
+                <img src="icon-vectors/arrow-right-white-icon.svg" alt="" class="button-base-icon">
+            </div>
+            <div class="button-base-container background-color-secondary badge-border">
+                <img src="icon-vectors/plus-icon.svg" alt="" class="button-base-icon">
+                <span class="button-base-label text-color-contrast">label</span>
+                <img src="icon-vectors/arrow-right-white-icon.svg" alt="" class="button-base-icon">
+            </div>
+            <!-- action button -->
+            <div class="button-action-container background-color-primary badge-border">
+                <img src="icon-vectors/plus-icon.svg" alt="" class="button-action-icon">
+            </div>
+        </div>
+       
+        <div class="box">
+            <H1>checkbox</H1>
+            <!-- checkbox -->
+            <div class="checkbox-container background-color-primary badge-border">
+                <img src="icon-vectors/badges-icon-check-white.svg" alt="" class="checkbox-icon">
+            </div>
+            <!-- checkbox with label -->
+            <div class="checkbox-container-label">
+                <div class="checkbox-container background-color-primary badge-border">
+                    <img src="icon-vectors/badges-icon-check-white.svg" alt="" class="checkbox-icon">                
+                </div>
+                <span class="checkbox-label-primary text-color-primary">label</span>
+            </div>
+            <!-- checkbox with label adn secoundary label -->
+            <div class="checkbox-container-label">
+                <div class="checkbox-container background-color-primary badge-border">
+                    <img src="icon-vectors/badges-icon-check-white.svg" alt="" class="checkbox-icon">                
+                </div>
+                <div class="checkbox-container-label-secoundary">
+                    <span class="checkbox-label-primary text-color-primary">label</span>
+                    <span class="checkbox-label-secoundary text-color-secondary">secondary</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <H1>chips</H1>
+            <!-- one chip variation -->
+            <div class="chip-container background-color-contrast badge-border">
+                <div class="chip-child-container background-color-primary">
+                    <span class="chip-initials text-color-contrast">AA</span>
+                </div>            
+                <span class="chip-label text-color-primary">label</span>
+                <div class="chip-child-container background-color-primary">
+                    <img src="icon-vectors/x-white-icon.svg" alt="" class="chip-icon">
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <H1>dividers</H1>
+            <!-- divider label in middle -->
+            <div class="divider-container">
+                <div class="h-divider-lines background-color-disabled"></div>
+                <span class="divider-label text-color-primary">label</span>
+                <div class="h-divider-lines background-color-disabled"></div>
+            </div>
+            <!-- divider label start -->
+            <div class="divider-container">
+                <span class="divider-label text-color-primary">label</span>
+                <div class="h-divider-lines background-color-disabled"></div>
+            </div>
+            <!-- divider icon in middle -->
+            <div class="divider-container">
+                <div class="h-divider-lines background-color-disabled"></div>
+                <img src="icon-vectors/pluss_black-icon.svg" alt="" class="chip-icon">
+                <div class="h-divider-lines background-color-disabled"></div>
+            </div>
+            <!-- divider element in middle -->
+            <div class="divider-container">
+                <div class="h-divider-lines background-color-disabled"></div>
+                <div class="container-badge-size-s background-color-primary">
+                    <span class="badge-text-size-s text-color-contrast">00</span>
+                </div>
+                <div class="h-divider-lines background-color-disabled"></div>
+            </div>
+            <!-- divider button in middle -->
+            <div class="divider-container">
+                <div class="h-divider-lines background-color-disabled"></div>
+                <div class="button-base-container background-color-primary badge-border">
+                    <img src="icon-vectors/plus-icon.svg" alt="" class="button-base-icon">
+                    <span class="button-base-label text-color-contrast">label</span>
+                    <img src="icon-vectors/arrow-right-white-icon.svg" alt="" class="button-base-icon">
+                </div>
+                <div class="h-divider-lines background-color-disabled"></div>
+            </div>
+            <!-- onlydivider -->
+            <div class="divider-container">
+                <div class="h-divider-lines background-color-disabled"></div>
+            </div>
+            <!-- vertical divider -->
+            <div class="divider-container">
+                <div class="v-divider-lines background-color-disabled"></div>
+                <span class="button-base-label text-color-primary">label</span>
+                <div class="v-divider-lines background-color-disabled"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <H1>inputs</H1>
+            <!-- input single line -->
+            <div class="input-singleline-container">
+                <div class="input-head-container">
+                    <span class="input-label-text text-color-primary">label</span>
+                    <span class="input-label-text text-color-primary">hint</span>
+                </div>
+                <div class="input-single-line-area">
+                    <img src="icon-vectors/message-icon.svg" alt="" class="input-icon">
+                    <span class="input-symbol text-color-primary">$</span>
+                    <div class="input-text-container">
+                        <span class="input-content text-color-secondary">content</span>
+                    </div>
+                    <img src="icon-vectors/visibility-icon.svg" alt="" class="input-icon">
+                    <div class="input-label-container">
+                        <span class="input-content text-color-contrast">label</span>
+                    </div>                    
+                </div>
+                <span class="input-help-text text-color-primary">help text</span>                
+            </div>
+            <!-- input multi line -->
+            <div class="input-multi-container">
+                <div class="input-head-container">
+                    <span class="input-label-text text-color-primary">label</span>
+                    <span class="input-label-text text-color-primary">hint</span>
+                </div>
+                <div class="input-multi-line-area">
+                    <div class="input-text-container">
+                        <span class="input-content text-color-secondary">content</span>
+                    </div>           
+                </div>
+                <span class="input-help-text text-color-primary">help text</span>                
+            </div>
+            <!-- input rich text -->
+            <div class="input-rich-container">                
+                <div class="input-head-container">
+                    <span class="input-label-text text-color-primary">label</span>
+                    <span class="input-label-text text-color-primary">hint</span>
+                </div>
+                <div class="input-rich-sybol-area">
+                    <div class="input-richbutton-container">
+                        <img src="icon-vectors/visibility-icon.svg" alt="" class="input-icon">
+                        <img src="icon-vectors/link-arrow-icon.svg" alt="" class="input-icon">
+                        <img src="icon-vectors/star-icon-black.svg" alt="" class="input-icon">                        
+                    </div>           
+                </div>
+                <div class="input-multi-line-area">
+                    <div class="input-text-container">
+                        <span class="input-content text-color-secondary">content</span>
+                    </div>           
+                </div>
+                <span class="input-help-text text-color-primary">help text</span>                
+            </div>
+            <!-- input shared -->
+            <H3>tikai šeit sapratu, ka jāuztaisa, kā inputs, ja būs laiks atgriezīšos</H3>
+            <div class="input-shared-container">                 
+                <div class="input-head-container">
+                    <span class="input-label-text text-color-primary">label</span>
+                    <span class="input-label-text text-color-primary">hint</span>
+                </div>
+                <div class="input-shared-table-column">
+                    <div class="input-shared-table-row">
+                        <input type="text" id="content" name="content" placeholder="content" class="input-type-1">
+                    </div>
+                    <div class="input-shared-table-row">
+                        <input type="text" id="content" name="content" placeholder="content" class="input-type-1">
+                        <input type="text" id="content" name="content" placeholder="content" class="input-type-1">
+                    </div>
+                    <div class="input-shared-table-row">
+                        <input type="text" id="content" name="content" placeholder="content" class="input-type-1">
+                        <input type="text" id="content" name="content" placeholder="content" class="input-type-1">
+                    </div>
+                    <div class="input-shared-table-row">
+                        <input type="text" id="content" name="content" placeholder="content" class="input-type-1">
+                        <input type="text" id="content" name="content" placeholder="content" class="input-type-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <H1>links</H1>
+            <!-- link l -->
+            <div class="link-container">
+                <span class="link-text-l text-color-primary">link</span>
+                <img src="icon-vectors/link-arrow-icon.svg" alt="" class="link-icon-l">
+            </div>
+            <!-- link m -->
+            <div class="link-container">
+                <span class="link-text-m text-color-primary">link</span>
+                <img src="icon-vectors/link-arrow-icon.svg" alt="" class="link-icon-m">
+            </div>    
+        </div>
+
+        <div class="box">
+            <H1>pagination</H1>
+            <!-- pagination -->
+            <H3>šeit pogām atjēdzos, ka jāizmanto button</H3>
+            <div class="pagination-container">
+                <button class="pagination-button pagination-button-next-previous">
+                    <img src="icon-vectors/pagination-icon.svg" alt="" class="pagination-icon-left">
+                </button>
+                <button class="pagination-button pagination-button-active">
+                    <span class="pagination-number-active text-color-contrast">1</span>
+                </button>
+                <button class="pagination-button pagination-button-inactive">
+                    <span class="pagination-number-active">2</span>
+                </button>
+                <button class="pagination-button pagination-button-inactive">
+                    <span class="pagination-number-active">...</span>
+                </button>
+                <button class="pagination-button pagination-button-inactive">
+                    <span class="pagination-number-active">4</span>
+                </button>
+                <button class="pagination-button pagination-button-inactive">
+                    <span class="pagination-number-active">5</span>
+                </button>                
+                <button class="pagination-button pagination-button-next-previous">
+                    <img src="icon-vectors/pagination-icon.svg" alt="" class="pagination-icon-right">
+                </button>
+            </div>
+        </div>
+
+        <div class="box">
+            <H1>radio</H1>
+            <!-- radio -->
+            <div class="radio-container">
+                <input type="radio" name="radio">
+            </div>
+            <div class="radio-container">
+                <input type="radio" name="radio">
+                <div class="radio-label-container">
+                    <label class="radio-label-primary text-color-primary">label</label>
+                    <label class="radio-label-secoundary text-color-secondary">secondary</label>
+                </div>
+            </div>
+            <div class="multiple-radio-container-h">
+                <div class="radio-container">
+                    <input type="radio" name="radio">
+                    <div class="radio-label-container">
+                        <label class="radio-label-primary text-color-primary">label is longer</label>
+                        <label class="radio-label-secoundary text-color-secondary">secondary is longer</label>
+                    </div>
+                </div>
+                <div class="radio-container">
+                    <input type="radio" name="radio">
+                    <div class="radio-label-container">
+                        <label class="radio-label-primary text-color-primary">label is longer</label>
+                        <label class="radio-label-secoundary text-color-secondary">secondary is longer</label>
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+        <div class="box">
+            <H1>tabs</H1>
+            <!-- tabs -->
+            <H3>šeit nesapratu, kā nomainīt arī texta biezumu uz hover</H3>
+            <div class="tabs-container-h">
+                <button class="tab-button-h tab-hover-h">
+                    <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                    <label class="tab-button-h-text">label</label>
+                </button>
+                <button class="tab-button-h tab-hover-h">
+                    <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                    <label class="tab-button-h-text">label</label>
+                </button>
+                <button class="tab-button-h tab-hover-h">
+                    <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                    <label class="tab-button-h-text">label</label>
+                </button>                
+            </div>
+
+            <div class="tabs-container-h">
+                <button class="tab-button-v tab-hover-h">
+                    <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                    <label class="tab-button-h-text">label</label>
+                </button>
+                <button class="tab-button-v tab-hover-h">
+                    <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                    <label class="tab-button-h-text">label</label>
+                </button>
+                <button class="tab-button-v tab-hover-h">
+                    <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                    <label class="tab-button-h-text">label</label>
+                </button>                                
+            </div>
+            <!-- side -->
+            <div class="tabs-container-v">
+                <button class="tab-button-side-h tab-hover-v">
+                    <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                    <label class="tab-button-h-text">label</label>
+                </button>
+                <button class="tab-button-side-h tab-hover-v">
+                    <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                    <label class="tab-button-h-text">label</label>
+                </button>
+                <button class="tab-button-side-h tab-hover-v">
+                    <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                    <label class="tab-button-v-text">label</label>
+                </button>                                
+            </div>
+            <!-- side -->
+            <div class="tabs-container-v">
+                <button class="tab-button-side-v tab-hover-v">
+                    <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                    <label class="tab-button-h-text">label</label>
+                </button>
+                <button class="tab-button-side-v tab-hover-v">
+                    <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                    <label class="tab-button-h-text">label</label>
+                </button>
+                <button class="tab-button-side-v tab-hover-v">
+                    <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                    <label class="tab-button-v-text">label</label>
+                </button>                                
+            </div>
+            <!-- single element -->
+
+            <button class="tab-button-with-count tab-hover-h">
+                <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                <div class="tab-label-count-container">
+                    <label class="tab-button-b-text">label</label>
+                    <div class="badgex-container">
+                        <span class="badgex-number">00</span>
+                    </div>
+                </div>
+            </button>
+
+            <button class="tab-button-with-count tab-hover-h">
+                <img src="icon-vectors/settings-icon.svg" alt="" class="tab-icon">
+                <div class="tab-label-count-container">
+                    <label class="tab-button-b-text">label check</label>
+                    <div class="badgex-container">
+                        <span class="badgex-number">00</span>
+                    </div>
+                </div>
+            </button>
+
+            <div class="badgex-container">
+                <span class="badgex-number">00dsdasdsad</span>
+            </div>
+
+            <!-- svg test -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25002C12.2855 1.25002 12.5462 1.41207 12.6725 1.66805L15.5882 7.57486L22.1085 8.5279C22.3909 8.56918 22.6254 8.76718 22.7134 9.03869C22.8015 9.3102 22.7278 9.60814 22.5233 9.80728L17.8059 14.402L18.9192 20.8932C18.9675 21.1746 18.8518 21.459 18.6208 21.6268C18.3898 21.7946 18.0836 21.8167 17.8309 21.6838L12 18.6174L6.16911 21.6838C5.91642 21.8167 5.6102 21.7946 5.37922 21.6268C5.14823 21.459 5.03255 21.1746 5.08081 20.8932L6.19413 14.402L1.47672 9.80728C1.27225 9.60814 1.19855 9.3102 1.28658 9.03869C1.37461 8.76718 1.60912 8.56918 1.89154 8.5279L8.41182 7.57486L11.3275 1.66805C11.4538 1.41207 11.7146 1.25002 12 1.25002ZM12 3.69446L9.58255 8.59198C9.47339 8.81312 9.2625 8.96646 9.01849 9.00213L3.61133 9.79247L7.52332 13.6027C7.70022 13.7751 7.78097 14.0234 7.73922 14.2668L6.81615 19.6488L11.6509 17.1062C11.8695 16.9913 12.1306 16.9913 12.3491 17.1062L17.1839 19.6488L16.2608 14.2668C16.2191 14.0234 16.2998 13.7751 16.4767 13.6027L20.3887 9.79247L14.9815 9.00213C14.7375 8.96646 14.5266 8.81312 14.4175 8.59198L12 3.69446Z" fill="black"/>
+                </svg>
+                
+
+
+
+        </div>
+    </div>
+</body>
+</html>
